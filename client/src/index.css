@@ -1,1 +1,37 @@
 @import "tailwindcss";
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 1328px) {
+
+    .container {
+        max-width: 700px;
+        min-width: 700px;
+    }
+}
+
+.desktop{
+
+    
+}

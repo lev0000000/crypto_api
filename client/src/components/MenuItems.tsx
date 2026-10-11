@@ -25,11 +25,11 @@ const MenuItems = ({ items, onClick }: MenuItemsProps) => {
         overflow: "auto",
       }}
     >
-      <span className="text-x p-4 fixed top-0 left-0 bg-white width-100 z-10 h-3">
+      <span className="text-x p-3 fixed top-0 left-0 bg-white width-100 z-10 h-3">
         Список криптовалют
       </span>
 
-      <Menu onClick={onClick} title="SADASDASD" className="" mode="vertical" items={items} />
+      <Menu onClick={onClick} title="SADASDASD" className="desktop" mode="vertical" items={items} />
     </div>
   );
 };
